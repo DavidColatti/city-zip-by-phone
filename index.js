@@ -7,10 +7,8 @@ const cityZipByPhone = (phone_number) => {
   const found_location = city_zip.find(
     (each) => each.area_code_prefix === area_prefix
   );
-  console.log(found_location);
 
   return found_location;
 };
 
-cityZipByPhone("(954) 882-1982");
 module.exports = cityZipByPhone;
