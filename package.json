@@ -1,6 +1,18 @@
 {
   "name": "city-zip-by-phone",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "main": "index.js",
-  "license": "MIT"
+  "description": "This package is a function that returns the USA area city and zip code a number is originated from",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "city",
+    "zip",
+    "phone"
+  ],
+  "author": "David Colatti"
 }
