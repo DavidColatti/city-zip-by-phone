@@ -8,7 +8,12 @@ const cityZipByPhone = (phone_number) => {
     (each) => each.area_code_prefix === area_prefix
   );
 
-  return found_location;
+  return {
+    area_code_prefix: "",
+    city: "",
+    zip: "",
+    ...found_location,
+  };
 };
 
 module.exports = cityZipByPhone;
